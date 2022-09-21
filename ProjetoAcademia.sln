@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32210.238
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.Application", "1.Application", "{827581D5-F09F-4058-9EA9-82FA13711ED8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.Domain", "2.Domain", "{D98F720B-80E0-46C8-A1CC-BB11F13C91A3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.Infra", "4.Infra", "{54E4640F-B098-4B7F-8949-DD87B5DE8B61}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.Repositories", "3.Repositories", "{9AED3896-070D-4B3A-A078-BBAA995AB8CA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.1.Data", "4.1.Data", "{7697646E-1920-4DC5-B373-E4CB2CCAD166}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.2.CrossCutting", "4.2.CrossCutting", "{3F298A40-2818-45EF-987A-564C3789E6ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjetoAcademia.Infra.Data", "ProjetoAcademia.Infra.Data\ProjetoAcademia.Infra.Data.csproj", "{79DBD38F-7583-46C1-9635-CD8A4F3F6F48}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{79DBD38F-7583-46C1-9635-CD8A4F3F6F48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79DBD38F-7583-46C1-9635-CD8A4F3F6F48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79DBD38F-7583-46C1-9635-CD8A4F3F6F48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79DBD38F-7583-46C1-9635-CD8A4F3F6F48}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7697646E-1920-4DC5-B373-E4CB2CCAD166} = {54E4640F-B098-4B7F-8949-DD87B5DE8B61}
+		{3F298A40-2818-45EF-987A-564C3789E6ED} = {54E4640F-B098-4B7F-8949-DD87B5DE8B61}
+		{79DBD38F-7583-46C1-9635-CD8A4F3F6F48} = {7697646E-1920-4DC5-B373-E4CB2CCAD166}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E1EFDC1C-29E2-4EFC-B471-B25575680D04}
+	EndGlobalSection
+EndGlobal
